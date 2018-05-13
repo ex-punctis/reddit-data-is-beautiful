@@ -88,7 +88,7 @@ def scrape(url):
 rootdir = u'.../reddit_dataisbeautiful_new/'                # destination folder
 
 # load user agents in random order
-user_agents = LoadUserAgents('.../user_agents_non_mobile.txt') # list of non-mobile user agents
+user_agents = LoadUserAgents(root_dir+'user_agents_non_mobile.txt') # list of non-mobile user agents
 s = requests.session()
 i = 0
 with open(rootdir+'post_links.txt', 'r') as source:
@@ -96,9 +96,3 @@ with open(rootdir+'post_links.txt', 'r') as source:
         print i, ":   ", url
         i += 1
         scrape(url)
-
-
-
-
-
-
