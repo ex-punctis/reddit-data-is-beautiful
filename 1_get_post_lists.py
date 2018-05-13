@@ -71,7 +71,7 @@ def download(url, name, path, user_agents):
 root_dir = '.../reddit_dataisbeautiful_new/'                    # destination folder
 root_url = 'https://www.reddit.com'
 download_log = open(root_dir+'post_lists.log', 'w')             # download log
-user_agents = LoadUserAgents('.../user_agents_non_mobile.txt')  # load non-mobile user agents in random order
+user_agents = LoadUserAgents(root_dir+'user_agents_non_mobile.txt')  # load non-mobile user agents in random order
 url = root_url+'/r/dataisbeautiful/new/'
 for i in range (1,41):                                          # reddit keeps only 40 pages of latest posts. Each page lists 25 posts.
     print "target: ", url
