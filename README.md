@@ -1,7 +1,7 @@
 # reddit-data-is-beautiful
 Analysis of reddit's "dataisbeautiful" community
 
-https://have-data-will-analyze.github.io/2018/04/29/Reddit-dataisbeautiful.html
+https://www.expunctis.com/2018/04/29/Reddit-dataisbeautiful.html
 
 ## Python 2.7 scripts
 
